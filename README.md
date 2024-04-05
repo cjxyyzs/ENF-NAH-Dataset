@@ -91,4 +91,13 @@ The ENF-WHU-v2 dataset, detailed in the following table, is compiled from audio 
 </table>
 </div>
 
+# Recording Duration
+The ENF-WHU-v2 dataset's audio durations are tailored based on an analysis of needs across various ENF forensic studies, ensuring versatility for different research objectives. Durations range from one to over forty minutes for timestamp verification, while tampering detection focuses on clips between nineteen seconds to twenty minutes. ENF signal estimation requires two to fifty minutes of audio to analyze grid frequency features accurately. Video forensics with ENF spans from short one-minute to longer recordings. The dataset's five to thirty-minute recordings strike a balance, covering a wide spectrum of forensic analysis scenarios.
+
+
+# Citation Information
+- **Tampering Detection**:
+  
+
+
 
