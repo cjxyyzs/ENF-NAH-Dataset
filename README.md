@@ -14,6 +14,8 @@ This repository is dedicated to the ENF-WHU-v2 Dataset, an Electric Network Freq
   - **'H1_ref'**: "001_ref~213_ref.wav" the corresponding 213 reference ENF (noise-free, same duration) obtained from power main.
   - **'H1_ref_one_day'**: the corresponding one-day (24 hours) reference ENF for the 213 recordings. "3-5,23.wav" means "003.wav", "004.wav", "005.wav" and "023.wav" in 'H1' folder are recorded within the same day.
   - **'H0'**: "001~027.wav" 27 real-world recordings without captured ENF.
+# Note about the Ground-Truth 
+The ground-truth matched location (the lag that corresponds to the true timestamp) can be determined by aligning noise-free reference files with their respective one-day references. For instance, matching "005_ref.wav" in 'H1_ref' folder with "3-5,23.wav" in 'H1_ref_one_day' folder yields the lag index, serving as the ground truth timestamp for "005.wav" in 'H1' folder. This implies that "005.wav" should align with the same or very close lag index in "3-5,23.wav". Correlation coefficient (CC) can be used for the matching criterion as long as the recording and reference are matched using the same criterion.
 
 # Recording Information
 ## Environment
