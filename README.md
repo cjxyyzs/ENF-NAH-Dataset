@@ -15,10 +15,11 @@ This repository is dedicated to the ENF-WHU-v2 Dataset, an Electric Network Freq
   - **'H1_ref_one_day'**: the corresponding one-day (24 hours) reference ENF for the 213 recordings. "3-5,23.wav" means "003.wav", "004.wav", "005.wav" and "023.wav" in 'H1' folder are recorded within the same day.
   - **'H0'**: "001~027.wav" 27 real-world recordings without captured ENF.
 
-# Recording Environment
+# Recording Information
+## Environment
 The ENF-WHU-v2 dataset expands beyond the original campus-based recordings of the [ENF-WHU dataset](https://github.com/ghua-ac/ENF-WHU-Dataset) to include over ten diverse scenes such as cafes, KTVs, cinemas, and parks, embracing both indoor and outdoor settings across different times. This strategic selection aims to more accurately mirror real-life forensic scenarios, ranging from quiet indoor environments to complex outdoor locations with varying ENF signal strengths due to factors like AC electrical activities and infrastructure. 
 
-# Recording Devices
+## Devices
 The ENF-WHU-v2 dataset, detailed in the following table, is compiled from audio captures recorded using a variety of widely-used devices, including smartphones, laptops, tablets, and digital voice recorders. This diverse collection serves as a valuable resource for investigating how different types of recording devices affect the fidelity of ENF signals. Notably, by exclusively using battery power for recordings, the dataset ensures an environment free from AC power interference, maintaining 'device-unconstrained' conditions that mirror real-life scenarios.
 <div align="center">
 <table>
@@ -91,7 +92,7 @@ The ENF-WHU-v2 dataset, detailed in the following table, is compiled from audio 
 </table>
 </div>
 
-# Recording Duration
+## Duration
 The ENF-WHU-v2 dataset's audio durations are tailored based on an analysis of needs across various ENF forensic studies, ensuring versatility for different research objectives. Durations range from one to over forty minutes for timestamp verification, while tampering detection focuses on clips between nineteen seconds to twenty minutes. ENF signal estimation requires two to fifty minutes of audio to analyze grid frequency features accurately. Video forensics with ENF spans from short one-minute to longer recordings. The dataset's five to thirty-minute recordings strike a balance, covering a wide spectrum of forensic analysis scenarios.
 
 
