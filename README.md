@@ -95,11 +95,69 @@ The ENF-WHU-v2 dataset, detailed in the following table, is compiled from audio 
 </div>
 
 ## Duration
-The ENF-WHU-v2 dataset's audio durations are tailored based on an analysis of needs across various ENF forensic studies, ensuring versatility for different research objectives. Durations range from one to over forty minutes for timestamp verification, while tampering detection focuses on clips between nineteen seconds to twenty minutes. ENF signal estimation requires two to fifty minutes of audio to analyze grid frequency features accurately. Video forensics with ENF spans from short one-minute to longer recordings. The dataset's five to thirty-minute recordings strike a balance, covering a wide spectrum of forensic analysis scenarios.
+The ENF-WHU-v2 dataset's audio durations are tailored based on an analysis of needs across various ENF forensic studies as shown in the following table, ensuring versatility for different research objectives. The dataset's 5 to 30 minutes recordings strike a balance, covering a wide spectrum of forensic analysis scenarios.
+<div align="center">
+  <table>
+    <tr>
+      <th align="center">Application</th>
+      <th align="center">Literature</th>
+      <th align="center">Time Duration</th>
+    </tr>
+    <tr>
+      <td align="center"><b>Timestamp Verification</b></td>
+      <td align="center">
+        <a href='https://ieeexplore.ieee.org/abstract/document/9882322'>ENF Based Robust Media Time-Stamping</a><br>
+        <a href='https://ieeexplore.ieee.org/document/6220899'>Application of Power System Frequency for Digital Audio Authentication</a><br>
+        <a href='https://www.sciencedirect.com/science/article/pii/S1742287617301883#sec2'>Time-of-recording estimation for audio recordings</a>
+      </td>
+      <td align="center">
+        <b>5~20 min<br>10 min<br><10 min<br>20~40 min</b>
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>Tampering Detection</b></td>
+      <td align="center">
+        <a href='https://ieeexplore.ieee.org/document/7378470'>Audio Authentication by Exploring the Absolute-Error-Map of ENF Signals</a>
+      </td>
+      <td align="center"><b>6~20 min</b></td>
+    </tr>
+    <tr>
+      <td align="center"><b>ENF Estimation</b></td>
+      <td align="center">
+        <a href='https://ieeexplore.ieee.org/document/6193429'>ENF Extraction From Digital Recordings Using Adaptive Techniques and Frequency Tracking</a><br>
+        <a href='https://ieeexplore.ieee.org/document/6482617'>Electrical Network Frequency (ENF) Maximum-Likelihood Estimation Via a Multitone Harmonic Model</a>
+      </td>
+      <td align="center"><b>30 min<br>30 min</b></td>
+    </tr>
+    <tr>
+      <td align="center"><b>ENF Enhancement</b></td>
+      <td align="center">
+        <a href='https://ieeexplore.ieee.org/abstract/document/8894138'>ENF Signal Enhancement in Audio Recordings</a><br>
+        <a href='https://ieeexplore.ieee.org/abstract/document/9494518'>Robust ENF Estimation Based on Harmonic Enhancement and Maximum Weight Clique</a>
+      </td>
+      <td align="center"><b>5~20 min<br>5~20 min</b></td>
+    </tr>
+  </table>
+</div>
+ 
 
 
-# Citation Information
+# Related Works
 - **Tampering Detection**:
+  >\[1] G. Hua, Y. Zhang, J. Goh and V. L. L. Thing, "Audio Authentication by Exploring the Absolute-Error-Map of ENF Signals," in IEEE Trans. Inf. Forensics Security, vol. 11, no. 5, pp. 1003-1016, May 2016. [link](https://ieeexplore.ieee.org/document/7378470)<br>
+- **ENF Enhancement**:
+  >\[2] G. Hua and H. Zhang, "ENF Signal Enhancement in Audio Recordings," in IEEE Trans. Inf. Forensics Security, vol. 15, pp. 1868-1878, 2020. [link](https://ieeexplore.ieee.org/abstract/document/8894138)<br>
+  >\[3] G. Hua, H. Liao, H. Zhang, D. Ye and J. Ma, "Robust ENF Estimation Based on Harmonic Enhancement and Maximum Weight Clique," in IEEE Trans. Inf. Forensics Security, vol. 16, pp. 3874-3887, 2021. [link](https://ieeexplore.ieee.org/abstract/document/9494518)<br>
+- **ENF Matching**:  
+  >\[4] G. Hua, "Error analysis of forensic ENF matching," in Proc. 2018 Proc. IEEE Int. Workshop Inf. Forensics Secur. (WIFS), pp. 1-7, Hong Kong, Dec. 2018. [link](https://ieeexplore.ieee.org/document/8630786)<br>
+   >\[5] G. Hua, J. Goh, and V. L. L. Thing, “A dynamic matching algorithm for audio timestamp identification using the ENF criterion,” IEEE Trans. Inf. Forensics Security, vol. 9, no. 7, pp. 1045-1055, Jul. 2014. [link](https://ieeexplore.ieee.org/document/6808537)<br>
+- **ENF Detection**：
+  >\[6] G. Hua, H. Liao, Q. Wang, H. Zhang, and D. Ye, "Detection of electric network frequency in audio recordings – From theory to practical detectors," IEEE Trans. Inf. Forensics Security, vol. 16, pp. 236–248, 2021. [link](https://ieeexplore.ieee.org/document/9143185)<br>
+- **ENF Datasets**:
+  >\[7] G. Hua and H. Liao, "ENF-WHU-Dataset", 2021. [Online]. Available:https://github.com/ghua-ac/ENF-WHU-Dataset.<br>
+  >\[8] S. Zuo, H. Zhang and J. Fang, "ENF-SAH-Dataset",2024. [Online]. Available:https://github.com/cjxyyzs/ENF-SAH-Dataset.
+
+
   
 
 
