@@ -21,15 +21,14 @@ The ground-truth matched location (the lag that corresponds to the true timestam
 
 # Recording Information
 ## Environment
-The ENF-WHU-v2 dataset expands beyond the original campus-based recordings of the [ENF-WHU-Dataset](https://github.com/ghua-ac/ENF-WHU-Dataset) to include over ten diverse scenes such as cafes, KTVs, cinemas, and parks, embracing both indoor and outdoor settings across different times. This strategic selection aims to more accurately mirror real-life forensic scenarios, ranging from quiet indoor environments to complex outdoor locations with varying ENF signal strengths due to factors like AC electrical activities and infrastructure. 
 <div align="center">
 <!-- 图片和子标题的表格 -->
 <table>
   <tr>
     <!-- 图片 -->
-    <td><img src="./figures/餐厅.jpg" alt="Restaurant" width="100%"/></td>
-    <td><img src="./figures/scene1.jpg" alt="Park" width="100%"/></td>
-    <td><img src="./figures/scene5.jpg" alt="Gymnasium" width="100%"/></td>
+    <td width="33%"><img src="./figures/餐厅.jpg" alt="Restaurant" width="100%"/></td>
+    <td width="33%"><img src="./figures/scene1.jpg" alt="Park" width="100%"/></td>
+    <td width="33%"><img src="./figures/scene5.jpg" alt="Gymnasium" width="100%"/></td>
   </tr>
   <tr>
     <!-- 子标题 -->
@@ -42,16 +41,21 @@ The ENF-WHU-v2 dataset expands beyond the original campus-based recordings of th
 <h3>Recording scene examples</h3>
 </div>
 
+The ENF-WHU-v2 dataset expands beyond the original campus-based recordings of the [ENF-WHU-Dataset](https://github.com/ghua-ac/ENF-WHU-Dataset) to include over ten diverse scenes such as cafes, KTVs, cinemas, and parks, embracing both indoor and outdoor settings across different times. This strategic selection aims to more accurately mirror real-life forensic scenarios, ranging from quiet indoor environments to complex outdoor locations with varying ENF signal strengths due to factors like AC electrical activities and infrastructure. 
+
+
 
 ## Devices
-<p align="center">
-  <img src="./figures/1.png" alt="A" width="40%">
-  <img src="./figures/8.png" alt="B" width="40%">
-</p>
-<p align="center">
-  <h2 align="center">Demonstration on recording equipment </h2>
-</p>
-
+<div align="center">
+<!-- 图片和子标题的表格 -->
+<table>
+  <tr>
+    <!-- 图片 -->
+    <td width="40%"><img src="./figures/1.png" alt="Restaurant" width="100%"/></td>
+    <td width="40%"><img src="./figures/8.png" alt="Park" width="100%"/></td>
+  </tr>
+</table>
+</div>
 The ENF-WHU-v2 dataset, detailed in the following table, is compiled from audio captures recorded using a variety of widely-used devices, including smartphones, laptops, tablets, and digital voice recorders. This diverse collection serves as a valuable resource for investigating how different types of recording devices affect the fidelity of ENF signals. Notably, by exclusively using battery power for recordings, the dataset ensures an environment free from AC power interference, maintaining 'device-unconstrained' conditions that mirror real-life scenarios.
 <div align="center">
 <table>
