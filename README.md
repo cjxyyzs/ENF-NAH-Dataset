@@ -20,7 +20,7 @@ This repository is dedicated to the **ENF-WHU-v2-Dataset**, an Electric Network 
 The ground-truth matched location (the lag that corresponds to the true timestamp) can be determined by aligning noise-free reference files with their respective one-day references. For instance, matching "005_ref.wav" in 'H1_ref' folder with "3-5,23.wav" in 'H1_ref_one_day' folder yields the lag index, serving as the ground truth timestamp for "005.wav" in 'H1' folder. This implies that "005.wav" should align with the same or very close lag index in "3-5,23.wav". Correlation coefficient (CC) can be used for the matching criterion as long as the recording and reference are matched using the same criterion.
 
 # Recording Information
-## Environment
+## 1. Environment
 <div align="center">
 <!-- 图片和子标题的表格 -->
 <table>
@@ -45,7 +45,7 @@ The ENF-WHU-v2-Dataset expands beyond the original campus-based recordings of th
 
 
 
-## Devices
+## 2. Devices
 <div align="center">
 <!-- 图片和子标题的表格 -->
 <table>
@@ -128,7 +128,7 @@ The ENF-WHU-v2-Dataset is compiled from audio captures recorded using a variety 
 </table>
 </div>
 
-## Duration
+## 3. Duration
 The ENF-WHU-v2-Dataset's audio durations are tailored based on an analysis of needs across various ENF forensic studies as shown in the following table, ensuring versatility for different research objectives. The dataset's 5 to 30 minutes recordings strike a balance, covering a wide spectrum of forensic analysis scenarios.
 <div align="center">
   <table>
