@@ -188,8 +188,8 @@ The ENF-WHU-v2 dataset's audio durations are tailored based on an analysis of ne
 - **ENF Detection**：
   >\[6] G. Hua, H. Liao, Q. Wang, H. Zhang, and D. Ye, "Detection of electric network frequency in audio recordings – From theory to practical detectors," IEEE Trans. Inf. Forensics Security, vol. 16, pp. 236–248, 2021. [link](https://ieeexplore.ieee.org/document/9143185)<br>
 - **ENF Datasets**:
-  >\[7] G. Hua and H. Liao, "ENF-WHU-Dataset", 2021. [Online]. Available:https://github.com/ghua-ac/ENF-WHU-Dataset.<br>
-  >\[8] S. Zuo, H. Zhang and J. Fang, "ENF-SAH-Dataset",2024. [Online]. Available:https://github.com/cjxyyzs/ENF-SAH-Dataset.
+  >\[7] G. Hua and H. Liao, "ENF-WHU-Dataset", 2021. [Online]. Available: https://github.com/ghua-ac/ENF-WHU-Dataset.<br>
+  >\[8] S. Zuo, H. Zhang and J. Fang, "ENF-SAH-Dataset", 2024. [Online]. Available: https://github.com/cjxyyzs/ENF-SAH-Dataset.
 
 
   
