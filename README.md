@@ -1,7 +1,7 @@
 <img src="./figures/ENF-WHU-v2.png" alt="Your image description" style="width: 100%; height: auto;"/>
 
-# ENF-WHU-v2
-This repository is dedicated to the ENF-WHU-v2 Dataset, an Electric Network Frequency (ENF) audio dataset collected around **Wuhan University** under unconstrained scenarios. It presents significant challenges to signal processing algorithms by complex and unconstrained real-world environments, where the weakness and partial absence of ENF signals along with environmental noise interference are prevalent. Additionally, it tests the impact of various recording devices on the ability to capture ENF signals, thereby increasing the complexity of analysis and application in broader and more practical scenarios.
+# Overview
+This repository is dedicated to the **ENF-WHU-v2-Dataset**, an Electric Network Frequency (ENF) audio dataset collected around **Wuhan University** under unconstrained scenarios. It presents significant challenges to signal processing algorithms by complex and unconstrained real-world environments, where the weakness and partial absence of ENF signals along with environmental noise interference are prevalent. Additionally, it tests the impact of various recording devices on the ability to capture ENF signals, thereby increasing the complexity of analysis and application in broader and more practical scenarios.
 
 - **Recording location**: coffee shops, KTVs, cinemas, parking lots, squares, parks, *etc.*, totaling more than ten different scenes.
 - **Environment diversity**: day/night, rainy/sunny, interior/exterior.
@@ -51,12 +51,12 @@ The ENF-WHU-v2 dataset expands beyond the original campus-based recordings of th
 <table>
   <tr>
     <!-- 图片 -->
-    <td width="40%"><img src="./figures/1.png" alt="Restaurant" width="100%"/></td>
+    <td width="40%"><img src="./figures/3.png" alt="Restaurant" width="100%"/></td>
     <td width="40%"><img src="./figures/8.png" alt="Park" width="100%"/></td>
   </tr>
 </table>
 </div>
-The ENF-WHU-v2 dataset, detailed in the following table, is compiled from audio captures recorded using a variety of widely-used devices, including smartphones, laptops, tablets, and digital voice recorders. This diverse collection serves as a valuable resource for investigating how different types of recording devices affect the fidelity of ENF signals. Notably, by exclusively using battery power for recordings, the dataset ensures an environment free from AC power interference, maintaining 'device-unconstrained' conditions that mirror real-life scenarios.
+The ENF-WHU-v2 dataset is compiled from audio captures recorded using a variety of widely-used devices, detailed in the following table, including smartphones, laptops, tablets, and digital voice recorders. This diverse collection serves as a valuable resource for investigating how different types of recording devices affect the fidelity of ENF signals. Notably, by exclusively using battery power for recordings, the dataset ensures an environment free from AC power interference, maintaining 'device-unconstrained' conditions that mirror real-life scenarios.
 <div align="center">
 <table>
   <tr>
