@@ -145,7 +145,7 @@ The ENF-WHU-v2-Dataset's audio durations are tailored based on an analysis of ne
         <a href='https://www.sciencedirect.com/science/article/pii/S1742287617301883#sec2'>Time-of-recording estimation for audio recordings</a>
       </td>
       <td align="center">
-        <b>5~20 min<br>10 min<br><10 min<br>20~40 min</b>
+        <b>5~20 min<br>10 min<br>20~40 min</b>
       </td>
     </tr>
     <tr>
