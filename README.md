@@ -1,23 +1,22 @@
 <img src="./figures/ENF-WHU-v2.png" alt="Your image description" style="width: 100%; height: auto;"/>
 
 # Overview
-This repository is dedicated to the **ENF-WHU-v2-Dataset**, an Electric Network Frequency (ENF) audio dataset collected around **Wuhan University** under unconstrained scenarios. It presents significant challenges to signal processing algorithms by complex and unconstrained real-world environments, where the weakness and partial absence of ENF signals along with environmental noise interference are prevalent. Additionally, it tests the impact of various recording devices on the ability to capture ENF signals, thereby increasing the complexity of analysis and application in broader and more practical scenarios.
+This repository is dedicated to the **ENF-NAH-Dataset**, an Electric Network Frequency (ENF) audio dataset collected around **Wuhan University** under unconstrained scenarios. It presents significant challenges to signal processing algorithms by complex and unconstrained real-world environments, where the weakness and partial absence of ENF signals along with environmental noise interference are prevalent. Additionally, it tests the impact of various recording devices on the ability to capture ENF signals, thereby increasing the complexity of analysis and application in broader and more practical scenarios.
 
 - **Recording location**: coffee shops, KTVs, cinemas, parking lots, squares, parks, *etc.*, totaling more than ten different scenes.
 - **Environment diversity**: day/night, rainy/sunny, interior/exterior.
 - **Recording device**: Redmi K40, Aigo R6633, iPad Air4, Tascam DR-07x, Philips VTR7100, iPhone 13, *etc.*, totaling ten different devices.
-- **Duration**: 5~30 minutes
+- **Duration**: 2~30 minutes
 - **Format**: PCM WAVE
 - **Quantization depth**: 16-bit
 - **Channel**: mono
 - **Sampling frequency**: 8000 Hz (400 Hz for reference data)
 - **Category**:
-  - **'H1'**: "001~213.wav" 213 real-world recordings with captured ENF (noisy).
-  - **'H1_ref'**: "001_ref~213_ref.wav" the corresponding 213 reference ENF (noise-free, same duration) obtained from power main.
-  - **'H1_ref_one_day'**: the corresponding one-day (24 hours) reference ENF for the 213 recordings. "3-5,23.wav" means "003.wav", "004.wav", "005.wav" and "023.wav" in 'H1' folder are recorded within the same day.
-  - **'H0'**: "001~027.wav" 27 real-world recordings without captured ENF.
+  - **'H'**: "001~265.wav" 265 real-world recordings with captured ENF (noisy).
+  - **'H_ref'**: "ref_001~ref_265.wav" the corresponding 265 reference ENF (noise-free, same duration) obtained from power main.
+  - **'H_ref_one_day'**: the corresponding one-day (24 hours) reference ENF for the 265 recordings. "1-2,41-42,51,57.wav" means "001.wav", "002.wav", "041.wav", "042.wav", "051.wav" and "057.wav" in 'H1' folder are recorded within the same day.
 # Note about the Ground-Truth 
-The ground-truth matched location (the lag that corresponds to the true timestamp) can be determined by aligning noise-free reference files with their respective one-day references. For instance, matching "005_ref.wav" in 'H1_ref' folder with "3-5,23.wav" in 'H1_ref_one_day' folder yields the lag index, serving as the ground truth timestamp for "005.wav" in 'H1' folder. This implies that "005.wav" should align with the same or very close lag index in "3-5,23.wav". Correlation coefficient (CC) can be used for the matching criterion as long as the recording and reference are matched using the same criterion.
+The ground-truth matched location (the lag that corresponds to the true timestamp) can be determined by aligning noise-free reference files with their respective one-day references. For instance, matching "ref_041.wav" in 'H_ref' folder with "1-2,41-42,51,57.wav" in 'H_ref_one_day' folder yields the lag index, serving as the ground truth timestamp for "041.wav" in 'H' folder. This implies that "041.wav" should align with the same or very close lag index in "1-2,41-42,51,57.wav". Correlation coefficient (CC) can be used for the matching criterion as long as the recording and reference are matched using the same criterion.
 
 # Recording Information
 ## 1. Environment
@@ -41,7 +40,7 @@ The ground-truth matched location (the lag that corresponds to the true timestam
 <h3>Recording scene examples</h3>
 </div>
 
-The ENF-WHU-v2-Dataset expands beyond the original campus-based recordings of the [ENF-WHU-Dataset](https://github.com/ghua-ac/ENF-WHU-Dataset) to include over ten diverse scenes such as cafes, KTVs, cinemas, and parks, embracing both indoor and outdoor settings across different times. This strategic selection aims to more accurately mirror real-life forensic scenarios, ranging from quiet indoor environments to complex outdoor locations with varying ENF signal strengths due to factors like AC electrical activities and infrastructure. 
+The ENF-NAH-Dataset expands beyond the original campus-based recordings of the [ENF-WHU-Dataset](https://github.com/ghua-ac/ENF-WHU-Dataset) to include over ten diverse scenes such as cafes, KTVs, cinemas, and parks, embracing both indoor and outdoor settings across different times. This strategic selection aims to more accurately mirror real-life forensic scenarios, ranging from quiet indoor environments to complex outdoor locations with varying ENF signal strengths due to factors like electrical activities and infrastructure. 
 
 
 
@@ -56,7 +55,7 @@ The ENF-WHU-v2-Dataset expands beyond the original campus-based recordings of th
   </tr>
 </table>
 </div>
-The ENF-WHU-v2-Dataset is compiled from audio captures recorded using a variety of widely-used devices, detailed in the following table, including smartphones, laptops, tablets, and digital voice recorders. This diverse collection serves as a valuable resource for investigating how different types of recording devices affect the fidelity of ENF signals. Notably, by exclusively using battery power for recordings, the dataset ensures an environment free from AC power interference, maintaining 'device-unconstrained' conditions that mirror real-life scenarios.
+The ENF-NAH-Dataset is compiled from audio captures recorded using a variety of widely-used devices, detailed in the following table, including smartphones, laptops, tablets, and digital voice recorders. This diverse collection serves as a valuable resource for investigating how different types of recording devices affect the fidelity of ENF signals. Notably, by exclusively using battery power for recordings, the dataset ensures an environment free from power interference, maintaining 'device-unconstrained' conditions that mirror real-life scenarios.
 <div align="center">
 <table>
   <tr>
@@ -129,7 +128,7 @@ The ENF-WHU-v2-Dataset is compiled from audio captures recorded using a variety 
 </div>
 
 ## 3. Duration
-The ENF-WHU-v2-Dataset's audio durations are tailored based on an analysis of needs across various ENF forensic studies as shown in the following table, ensuring versatility for different research objectives. The dataset's 5 to 30 minutes recordings strike a balance, covering a wide spectrum of forensic analysis scenarios.
+The ENF-NAH-Dataset's audio durations are tailored based on an analysis of needs across various ENF forensic studies as shown in the following table, ensuring versatility for different research objectives. The recordings in the dataset, which range from 2 to 30 minutes strike a balance, covering a wide spectrum of forensic analysis scenarios.
 <div align="center">
   <table>
     <tr>
