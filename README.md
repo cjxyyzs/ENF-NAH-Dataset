@@ -1,7 +1,7 @@
 <img src="./figures/ENF-NAH-Dataset.png" alt="Your image description" style="width: 100%; height: auto;"/>
 
 # Overview
-This repository is dedicated to the **ENF-NAH-Dataset**, an Electric Network Frequency (ENF) audio dataset collected around **Wuhan University** under unconstrained scenarios. It presents significant challenges to signal processing algorithms by complex and unconstrained real-world environments, where the weakness and partial absence of ENF signals along with environmental noise interference are prevalent. Additionally, it tests the impact of various recording devices on the ability to capture ENF signals, thereby increasing the complexity of analysis and application in broader and more practical scenarios.
+This repository is dedicated to the **ENF-NAH-Dataset**, an Electric Network Frequency (ENF) audio dataset collected around **Wuhan University** under unconstrained scenarios. It presents significant challenges to signal processing algorithms by complex and unconstrained real-world environments, where the weakness and partial absence of ENF signals along with environmental noise interference are prevalent. Additionally, it offers the platform to assess the impact of various recording devices on the ability to capture ENF signals, thereby increasing the complexity of analysis and application in broader and more practical scenarios.
 
 - **Recording location**: coffee shops, KTVs, cinemas, parking lots, squares, parks, *etc.*, totaling more than ten different scenes.
 - **Environment diversity**: day/night, rainy/sunny, interior/exterior.
