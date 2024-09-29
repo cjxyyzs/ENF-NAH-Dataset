@@ -188,7 +188,7 @@ The ENF-NAH-Dataset's audio durations are tailored based on an analysis of needs
   >\[7] G. Hua, J. Goh, and V. L. L. Thing, “A dynamic matching algorithm for audio timestamp identification using the ENF criterion,” IEEE Trans. Inf. Forensics Security, vol. 9, no. 7, pp. 1045-1055, Jul. 2014. [link](https://ieeexplore.ieee.org/document/6808537)<br>
   >\[8] S. Vatansever, A. E. Dirik and N. Memon, "ENF Based Robust Media Time-Stamping," in IEEE Signal Process. Lett., vol. 29, pp. 1963-1967, 2022. [link](https://ieeexplore.ieee.org/abstract/document/9882322)<br>
 - **ENF Detection**：
-  >\[9] G. Hua, H. Liao, Q. Wang, H. Zhang, and D. Ye, "Detection of electric network frequency in audio recordings – From theory to practical detectors," IEEE Trans. Inf. Forensics Security, vol. 16, pp. 236–248, 2021. [link](https://ieeexplore.ieee.org/document/9143185)<br>
+  >\[9] G. Hua, H. Liao, Q. Wang, H. Zhang, and D. Ye, "Detection of Electric Network Frequency in audio recordings – From theory to practical detectors," IEEE Trans. Inf. Forensics Security, vol. 16, pp. 236–248, 2021. [link](https://ieeexplore.ieee.org/document/9143185)<br>
   >\[10] H. Liao, G. Hua and H. Zhang, "ENF Detection in Audio Recordings via Multi-Harmonic Combining," in IEEE Signal Process. Lett., vol. 28, pp. 1808-1812, 2021. [link](https://ieeexplore.ieee.org/abstract/document/9528023)
 
 
