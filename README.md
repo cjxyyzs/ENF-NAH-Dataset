@@ -16,7 +16,7 @@ This repository is dedicated to the **ENF-NAH-Dataset**, an Electric Network Fre
   - **'H_ref'**: "ref_001~ref_265.wav" the corresponding 265 reference ENF (noise-free, same duration) obtained from power main.
   - **'H_ref_one_day'**: the corresponding one-day (24 hours) reference ENF for the 265 recordings. "1-2,41-42,51,57.wav" means "001.wav", "002.wav", "041.wav", "042.wav", "051.wav" and "057.wav" in 'H1' folder are recorded within the same day.
 # Note about the Ground-Truth 
-The ground-truth matched location (the lag that corresponds to the true timestamp) can be determined by aligning noise-free reference files with their respective one-day references. For instance, matching "ref_041.wav" in 'H_ref' folder with "1-2,41-42,51,57.wav" in 'H_ref_one_day' folder yields the lag index, serving as the ground truth timestamp for "041.wav" in 'H' folder. This implies that "041.wav" should align with the same or very close lag index in "1-2,41-42,51,57.wav". Correlation coefficient (CC) can be used for the matching criterion as long as the recording and reference are matched using the same criterion.
+The ground-truth matched location (the lag that corresponds to the true timestamp) can be determined by aligning noise-free reference files with their respective one-day references. For instance, matching "ref_041.wav" in 'H_ref' folder with "1-2,41-42,51,57.wav" in 'H_ref_one_day' folder yields the lag index, serving as the ground truth timestamp for "041.wav" in 'H' folder.  Correlation coefficient (CC) can be used for the matching criterion as long as the recording and reference are matched using the same criterion.
 
 # Recording Information
 ## 1. Environment
@@ -178,17 +178,19 @@ The ENF-NAH-Dataset's audio durations are tailored based on an analysis of needs
 # Related Works
 - **Tampering Detection**:
   >\[1] G. Hua, Y. Zhang, J. Goh and V. L. L. Thing, "Audio Authentication by Exploring the Absolute-Error-Map of ENF Signals," in IEEE Trans. Inf. Forensics Security, vol. 11, no. 5, pp. 1003-1016, May 2016. [link](https://ieeexplore.ieee.org/document/7378470)<br>
+  >\[2] P. M. G. I. Reis, J. P. C. Lustosa da Costa, R. K. Miranda and G. Del Galdo, "ESPRIT-Hilbert-Based Audio Tampering Detection With SVM Classifier for Forensic Analysis via Electrical Network Frequency," in IEEE Trans. Inf. Forensics Security, vol. 12, no. 4, pp. 853-864, April 2017. [link](https://ieeexplore.ieee.org/document/7775065)<br>
+  >\[3] X. Lin and X. Kang, "Supervised audio tampering detection using an autoregressive model," IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), New Orleans, LA, USA, 2017, pp. 2142-2146. [link](https://ieeexplore.ieee.org/abstract/document/7952535)<br>
 - **ENF Enhancement**:
-  >\[2] G. Hua and H. Zhang, "ENF Signal Enhancement in Audio Recordings," in IEEE Trans. Inf. Forensics Security, vol. 15, pp. 1868-1878, 2020. [link](https://ieeexplore.ieee.org/abstract/document/8894138)<br>
-  >\[3] G. Hua, H. Liao, H. Zhang, D. Ye and J. Ma, "Robust ENF Estimation Based on Harmonic Enhancement and Maximum Weight Clique," in IEEE Trans. Inf. Forensics Security, vol. 16, pp. 3874-3887, 2021. [link](https://ieeexplore.ieee.org/abstract/document/9494518)<br>
+  >\[4] G. Hua and H. Zhang, "ENF Signal Enhancement in Audio Recordings," in IEEE Trans. Inf. Forensics Security, vol. 15, pp. 1868-1878, 2020. [link](https://ieeexplore.ieee.org/abstract/document/8894138)<br>
+  >\[5] G. Hua, H. Liao, H. Zhang, D. Ye and J. Ma, "Robust ENF Estimation Based on Harmonic Enhancement and Maximum Weight Clique," in IEEE Trans. Inf. Forensics Security, vol. 16, pp. 3874-3887, 2021. [link](https://ieeexplore.ieee.org/abstract/document/9494518)<br>
 - **ENF Matching**:  
-  >\[4] G. Hua, "Error analysis of forensic ENF matching," in Proc. 2018 Proc. IEEE Int. Workshop Inf. Forensics Secur. (WIFS), pp. 1-7, Hong Kong, Dec. 2018. [link](https://ieeexplore.ieee.org/document/8630786)<br>
-   >\[5] G. Hua, J. Goh, and V. L. L. Thing, “A dynamic matching algorithm for audio timestamp identification using the ENF criterion,” IEEE Trans. Inf. Forensics Security, vol. 9, no. 7, pp. 1045-1055, Jul. 2014. [link](https://ieeexplore.ieee.org/document/6808537)<br>
+  >\[6] G. Hua, "Error analysis of forensic ENF matching," in Proc. 2018 Proc. IEEE Int. Workshop Inf. Forensics Secur. (WIFS), pp. 1-7, Hong Kong, Dec. 2018. [link](https://ieeexplore.ieee.org/document/8630786)<br>
+  >\[7] G. Hua, J. Goh, and V. L. L. Thing, “A dynamic matching algorithm for audio timestamp identification using the ENF criterion,” IEEE Trans. Inf. Forensics Security, vol. 9, no. 7, pp. 1045-1055, Jul. 2014. [link](https://ieeexplore.ieee.org/document/6808537)<br>
+  >\[8] S. Vatansever, A. E. Dirik and N. Memon, "ENF Based Robust Media Time-Stamping," in IEEE Signal Process. Lett., vol. 29, pp. 1963-1967, 2022. [link](https://ieeexplore.ieee.org/abstract/document/9882322)<br>
 - **ENF Detection**：
-  >\[6] G. Hua, H. Liao, Q. Wang, H. Zhang, and D. Ye, "Detection of electric network frequency in audio recordings – From theory to practical detectors," IEEE Trans. Inf. Forensics Security, vol. 16, pp. 236–248, 2021. [link](https://ieeexplore.ieee.org/document/9143185)<br>
-- **ENF Datasets**:
-  >\[7] G. Hua and H. Liao, "ENF-WHU-Dataset", 2021. [Online]. Available: https://github.com/ghua-ac/ENF-WHU-Dataset.<br>
-  >\[8] S. Zuo, H. Zhang and J. Fang, "ENF-SAH-Dataset", 2024. [Online]. Available: https://github.com/cjxyyzs/ENF-SAH-Dataset.
+  >\[9] G. Hua, H. Liao, Q. Wang, H. Zhang, and D. Ye, "Detection of Electric Network Frequency in audio recordings – From theory to practical detectors," IEEE Trans. Inf. Forensics Security, vol. 16, pp. 236–248, 2021. [link](https://ieeexplore.ieee.org/document/9143185)<br>
+  >\[10] H. Liao, G. Hua and H. Zhang, "ENF Detection in Audio Recordings via Multi-Harmonic Combining," in IEEE Signal Process. Lett., vol. 28, pp. 1808-1812, 2021. [link](https://ieeexplore.ieee.org/abstract/document/9528023)
+
 
 
   
