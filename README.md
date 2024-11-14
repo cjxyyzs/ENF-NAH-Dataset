@@ -55,7 +55,7 @@ The ENF-NAH-Dataset expands beyond the original campus-based recordings of the [
   </tr>
 </table>
 </div>
-The ENF-NAH-Dataset is compiled from audio captures recorded using a variety of widely-used devices, detailed in the following table, including smartphones, laptops, tablets, and digital voice recorders. This diverse collection serves as a valuable resource for investigating how different types of recording devices affect the fidelity of ENF signals. Notably, by exclusively using battery power for recordings, the dataset ensures an environment free from power interference, maintaining 'device-unconstrained' conditions that mirror real-life scenarios.
+The ENF-NAH-Dataset is compiled from audio captures recorded using a variety of widely-used devices, detailed in the following table, including smartphones, laptops, tablets, and digital voice recorders. This diverse collection serves as a valuable resource for investigating how different types of recording devices affect the fidelity of ENF signals. Notably, by exclusively using battery power for recordings, the dataset ensures an environment free from power interference, maintaining 'device-unconstrained' conditions that mirror real-life scenarios. The recording device information for the audio files in the "H" folder of the dataset is contained in the "device.txt" file.
 <div align="center">
 <table>
   <tr>
