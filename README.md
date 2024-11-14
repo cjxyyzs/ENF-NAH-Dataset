@@ -77,10 +77,10 @@ The ENF-NAH-Dataset is compiled from audio captures recorded using a variety of 
     <td align="center">WAV</td>
   </tr>
   <tr>
-    <td align="center">Smartphone</td>
-    <td align="center">HUAWEI nova</td>
-    <td align="center">Android 13.0</td>
-    <td align="center">M4A</td>
+    <td align="center">Phone</td>
+    <td align="center">Telephone</td>
+    <td align="center">——</td>
+    <td align="center">WAV</td>
   </tr>
   <tr>
     <td align="center">Tablet</td>
@@ -90,7 +90,7 @@ The ENF-NAH-Dataset is compiled from audio captures recorded using a variety of 
   </tr>
   <tr>
     <td align="center">Tablet</td>
-    <td align="center">HUAWEI MatePad 11</td>
+    <td align="center">HUAWEI MatePad 10</td>
     <td align="center">HarmonyOS 2.0</td>
     <td align="center">M4A</td>
   </tr>
