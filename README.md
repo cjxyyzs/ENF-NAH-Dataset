@@ -22,7 +22,7 @@ The ground-truth matched location (the lag that corresponds to the true timestam
 <table>
   <tr>
     <!-- 图片 -->
-    <td width="40%"><img src="./figures/ref.jpg" alt="Demonstration of reference data collection using an ENF collector." width="100%"/></td>
+    <td width="40%"><img src="./figures/ref.JPG" alt="Demonstration of reference data collection using an ENF collector." width="100%"/></td>
   </tr>
 </table>
 </div>
