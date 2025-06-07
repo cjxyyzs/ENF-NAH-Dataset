@@ -18,15 +18,15 @@ This repository is dedicated to the **ENF-NAH-Dataset**, an Electric Network Fre
 # Note about the Ground-Truth 
 The ground-truth matched location (the lag that corresponds to the true timestamp) can be determined by aligning noise-free reference files with their respective one-day references. For instance, matching "ref_041.wav" in 'H_ref' folder with "1-2,41-42,51,57.wav" in 'H_ref_one_day' folder yields the lag index, serving as the ground truth timestamp for "041.wav" in 'H' folder.  Correlation coefficient (CC) can be used for the matching criterion as long as the recording and reference are matched using the same criterion.
 <div align="center">
-<!-- 图片和子标题的表格 -->
-<table>
-  <tr>
-    <!-- 图片 -->
-    <td width="100%"><img src="./figures/ref.JPG" alt="Demonstration of reference data collection using an ENF collector." width="50%"/></td>
-  </tr>
-</table>
-<!-- 主标题 -->
-<h3>Demonstration of reference data collection using an ENF collector</h3>
+  <!-- 图片 -->
+  <img src="./figures/ref.JPG" 
+       alt="Demonstration of reference data collection using an ENF collector." 
+       style="display: block; margin: 0 auto; width: 50%;" />
+
+  <!-- 主标题 -->
+  <h3 style="margin-top: 10px;">
+    Demonstration of reference data collection using an ENF collector
+  </h3>
 </div>
 
 # Recording Information
