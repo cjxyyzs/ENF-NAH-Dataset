@@ -17,6 +17,15 @@ This repository is dedicated to the **ENF-NAH-Dataset**, an Electric Network Fre
   - **'H_ref_one_day'**: the corresponding one-day (24 hours) reference ENF for the 265 recordings. "1-2,41-42,51,57.wav" means "001.wav", "002.wav", "041.wav", "042.wav", "051.wav" and "057.wav" in 'H1' folder are recorded within the same day.
 # Note about the Ground-Truth 
 The ground-truth matched location (the lag that corresponds to the true timestamp) can be determined by aligning noise-free reference files with their respective one-day references. For instance, matching "ref_041.wav" in 'H_ref' folder with "1-2,41-42,51,57.wav" in 'H_ref_one_day' folder yields the lag index, serving as the ground truth timestamp for "041.wav" in 'H' folder.  Correlation coefficient (CC) can be used for the matching criterion as long as the recording and reference are matched using the same criterion.
+<div align="center">
+<!-- 图片和子标题的表格 -->
+<table>
+  <tr>
+    <!-- 图片 -->
+    <td width="40%"><img src="./figures/ref.jpg" alt="Demonstration of reference data collection using an ENF collector." width="100%"/></td>
+  </tr>
+</table>
+</div>
 
 # Recording Information
 ## 1. Environment
